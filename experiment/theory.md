@@ -17,7 +17,7 @@
    
 - We now use linked lists to perform operations on polynomials.  
 
-- Let f(x) = Σ<sup>d</sup><sub>i=0<sub> a<sub>i</sub>x<sup>i</sup>.
+- Let f(x) = Σ<sup>d</sup><sub>=0</sub> a<sub>i</sub>x<sup>i</sup>.
     The quantity d is called as the degree of the polynomial, with the assumption that ad not equal to 0. A polynomial of degree d may however have missing terms i.e., powers j such that 0 <= j < d and aj = 0.
 
 - The standard operations on a polynomial are addition and multiplication. If we store the coefficient ofeach term of the polynomials in an array of size d + 1, then these operations can be supported in a straightforwardway. However, for sparse polynomails, i.e., polynomials where there are few non-zero coefficients, this is not efficient. One possible solution is to use linked lists to store degree, coefficient pairs for non-zero coefficients. With this representation, it makes it easier if we keep the list of such pairs in decreasing order of degrees. A polynomial is a sum of terms. Each term consists of a coefficient and a (common) variable raised to an exponent. We consider only integer exponents, for now.  
