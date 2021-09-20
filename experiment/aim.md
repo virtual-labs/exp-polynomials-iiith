@@ -1,1 +1,1 @@
-### Aim of the experiment
+This experiment guides you using Linked lists in a practical example. This is useful if you want to understand linked lists or if you want to see a realistic, applied example of pointer-intensive code. In this experiment, you will essentially use linked lists to add and multiply (sparse) polynomials.
